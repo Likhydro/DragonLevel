@@ -1,0 +1,6 @@
+name: DragonLevel
+version: 1.0
+main: me.smaks6.dragonlevel.Main
+api-version: 1.16
+authors: [smaks6]
+description: This is a plugin for dragon levels
