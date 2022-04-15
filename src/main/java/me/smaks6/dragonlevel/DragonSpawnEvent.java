@@ -20,7 +20,7 @@ public class DragonSpawnEvent implements Listener {
             ((Attributable) dragon).getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(lvl);
             dragon.setCustomName("Ender Dragon LVL " + Main.getInstance().getConfig().getString("DragonLevel"));
             ((Damageable) dragon).setHealth(lvl);
-            Main.getInstance().getServer().broadcastMessage("hp smoka to: " + ((Damageable) dragon).getHealth());
+            Main.getInstance().getServer().broadcastMessage("Ender Dragon HP: " + ((Damageable) dragon).getHealth());
         }
     }
 }
